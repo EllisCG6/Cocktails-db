@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components{
+  .detail{
+    @apply mt-5
+  }
+  .span-detail{
+    @apply bg-green-100 font-bold text-green-900 tracking-widest p-1 rounded mr-2
+  }
+}
